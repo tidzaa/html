@@ -67,7 +67,7 @@ document.addEventListener('keydown', (event) => {
   }
 });
 
-// Focus element on mouse over
+// Focus element as mouse over
 resultsList.addEventListener('mousemove', (event) => {
   const target = event.target;
   if (target && target.nodeName === 'A') {
