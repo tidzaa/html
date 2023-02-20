@@ -16,7 +16,7 @@
      this.offset += dx;
    };
    this.horizon = height * 0.7;
-   // This creates the sky gradient (from a darker blue to white at the bottom)
+   // This creates the sky gradient (from a darker blue at the top to white at the bottom)
    this.sky = context.createLinearGradient(0, 0, 0, this.horizon);
    this.sky.addColorStop(0.0, 'rgb(55,121,179)');
    this.sky.addColorStop(0.7, 'rgb(121,194,245)');
